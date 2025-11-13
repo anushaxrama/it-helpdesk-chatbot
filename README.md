@@ -1,8 +1,8 @@
-# 🤖 AI Helpdesk Chatbot
+# AI Helpdesk Chatbot
 
 An intelligent IT support chatbot powered by LangChain, OpenAI, and modern web technologies. This application provides automated assistance for common IT issues like Wi-Fi setup, password resets, software installation, and A/V troubleshooting.
 
-## ✨ Features
+## Features
 
 - **Intelligent Chat Interface**: Natural language processing for IT queries
 - **Knowledge Base Integration**: RAG-powered retrieval from structured IT documentation
@@ -13,7 +13,7 @@ An intelligent IT support chatbot powered by LangChain, OpenAI, and modern web t
 - **Analytics Dashboard**: Track query patterns and resolution rates
 - **Beautiful UI**: Modern, responsive design with Tailwind CSS
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────┐      ┌──────────────┐      ┌─────────────────┐
@@ -29,7 +29,7 @@ An intelligent IT support chatbot powered by LangChain, OpenAI, and modern web t
                      └──────────────┘
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **Python 3.11+**
@@ -50,7 +50,7 @@ An intelligent IT support chatbot powered by LangChain, OpenAI, and modern web t
 - **ChromaDB** - Vector embeddings storage
 - **JSON** - Knowledge base documents
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -110,7 +110,7 @@ npm run dev
 
 Visit `http://localhost:5173` to use the chatbot!
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 langchain/
@@ -145,7 +145,7 @@ langchain/
 └── README.md
 ```
 
-## 🧪 Example Queries
+## Example Queries
 
 Try asking the chatbot:
 - "How do I connect to the company Wi-Fi?"
@@ -154,7 +154,7 @@ Try asking the chatbot:
 - "The projector isn't detecting my laptop"
 - "How do I install Microsoft Teams?"
 
-## 🎨 UI Features
+## UI Features
 
 - **Clean Chat Interface**: Messages with sender avatars and timestamps
 - **Quick Action Buttons**: One-click access to common IT tasks
@@ -181,7 +181,7 @@ CORS_ORIGINS=http://localhost:5173
 VITE_API_BASE_URL=http://localhost:8000
 ```
 
-## 📊 Knowledge Base Format
+## Knowledge Base Format
 
 The IT knowledge base is stored in `backend/data/it_knowledge.csv`:
 
@@ -192,7 +192,7 @@ password,reset_password,"Visit https://portal.company.com/reset...",password,res
 ...
 ```
 
-## 🚢 Deployment
+## Deployment
 
 ### Docker Deployment
 
@@ -209,7 +209,7 @@ docker-compose up --build
 - **Frontend**: Vercel, Netlify, AWS S3 + CloudFront
 - **Database**: Pinecone (managed vector DB) or self-hosted ChromaDB
 
-## 🧠 How It Works
+## How It Works
 
 1. **User Query**: User types a question in the chat interface
 2. **API Request**: Frontend sends query to FastAPI backend
@@ -219,7 +219,7 @@ docker-compose up --build
 6. **Memory**: Conversation context is maintained for follow-ups
 7. **Response**: Answer is streamed back to the user
 
-## 🎯 Resume Description
+## Resume Description
 
 **Helpdesk Chatbot for IT Support (AI | UX | Automation)**
 *LangChain | Python | React | FastAPI | ChromaDB | Tailwind CSS*
@@ -230,26 +230,22 @@ docker-compose up --build
 • Implemented contextual memory and fallback escalation to support ticket generation
 • Deployed production-ready application with Docker, handling 50+ IT issue categories
 
-## 🤝 Contributing
+## Contributing
 
 This is a portfolio project, but suggestions are welcome! Feel free to:
 - Report bugs
 - Suggest new features
 - Improve documentation
 
-## 📄 License
-
-MIT License - feel free to use this for your portfolio or learning purposes.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built for demonstrating AI-powered IT support automation
-- Designed to showcase full-stack development skills for SMUD application
+- Designed to showcase full-stack development skills 
 - Inspired by modern IT helpdesk systems and conversational AI
 
 ---
 
 **Created by**: Anusha Ramachandran
 **Purpose**: Portfolio Project for IT Support & AI Skills Demonstration
-**Contact**: [Your LinkedIn/Email]
+**Contact**: arama@ucdavis.edu
 
